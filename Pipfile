@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+
+[packages]
+jinja2 = "*"
+netaddr = "*"
+pyyaml = "*"
+
+[pipenv]
+allow_prereleases = true
